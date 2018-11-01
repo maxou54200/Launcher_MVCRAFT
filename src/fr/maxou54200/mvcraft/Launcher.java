@@ -33,8 +33,7 @@ public class Launcher {
 	private static ErrorUtil errorUtil = new ErrorUtil(MV_CRASHES_DIR);
 	public static void auth(String username, String password) throws AuthenticationException {
 		Authenticator authenticator = new Authenticator(Authenticator.MOJANG_AUTH_URL, AuthPoints.NORMAL_AUTH_POINTS);
-		AuthResponse response = authenticator.authenticate(
-		            AuthAgent.MINECRAFT, username, password, "");
+		AuthResponse response = authenticator.authenticate(AuthAgent.MINECRAFT, username, password, "");
 		authInfos = new AuthInfos(response.getSelectedProfile().getName(), response.getAccessToken(), response.getSelectedProfile().getId());
 	}
 	

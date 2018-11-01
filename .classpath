@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/CAROLE/Documents/program&apos;s and other/Launcher Librairies/gson-2.3.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/CAROLE/Documents/program&apos;s and other/Launcher Librairies/openauth-1.0.0-SNAPSHOT.jar"/>
-	<classpathentry kind="lib" path="C:/Users/CAROLE/Documents/program&apos;s and other/Launcher Librairies/openlauncherlib-2.1-SNAPSHOT.jar"/>
-	<classpathentry kind="lib" path="C:/Users/CAROLE/Documents/program&apos;s and other/Launcher Librairies/swinger-1.0.0-BETA.jar"/>
-	<classpathentry kind="lib" path="C:/Users/CAROLE/Documents/program&apos;s and other/Launcher Librairies/s-update-3.1.0-BETA.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="/Users/alexandre/Documents/GitHub/launcher maxime/libs/s-update-3.1.0-BETA.jar"/>
+	<classpathentry kind="lib" path="/Users/alexandre/Documents/GitHub/launcher maxime/libs/swinger-1.0.0-BETA.jar"/>
+	<classpathentry kind="lib" path="/Users/alexandre/Documents/GitHub/launcher maxime/libs/gson-2.3.1.jar"/>
+	<classpathentry kind="lib" path="/Users/alexandre/Documents/GitHub/launcher maxime/libs/openlauncherlib-2.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="/Users/alexandre/Documents/GitHub/launcher maxime/libs/openauth-1.0.0-SNAPSHOT.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
